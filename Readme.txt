@@ -270,6 +270,143 @@ $ git checkout PAPAS_B4
 M       Readme.txt
 Already on 'PAPAS_B4'
 
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B4)
+$ git add Readme.txt
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B4)
+$ git commit -m "Added git commands in PAPAS_B4 branch"
+[PAPAS_B4 68a04bf] Added git commands in PAPAS_B4 branch
+ 1 file changed, 14 insertions(+)
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B4)
+$ git status
+On branch PAPAS_B4
+nothing to commit, working tree clean
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B4)
+$ git checkout master
+Switched to branch 'master'
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (master)
+$ git checkout PAPAS_B1 -- Profile.txt
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (master)
+$ git checkout PAPAS_B2 -- Education.txt
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (master)
+$ git checkout PAPAS_B3 -- Readme.txt
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (master)
+$ git checkout PAPAS_B3 -- Background.txt
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (master)
+$ git checkout PAPAS_B4 -- Readme.txt
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Background.txt
+        modified:   Education.txt
+        modified:   Profile.txt
+        modified:   Readme.txt
+
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (master)
+$ git commit -m "All Information combined"
+[master 230e5bd] All Information combined
+ 4 files changed, 290 insertions(+), 3 deletions(-)
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (master)
+$ git remote add origin https://github.com/Thea-18/PAPAS_IT120_ACT1.git
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (master)
+$ git branch -M main
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (13/13), 2.44 KiB | 227.00 KiB/s, done.
+Total 13 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/Thea-18/PAPAS_IT120_ACT1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (main)
+$ git push origin PAPAS_B1
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.49 KiB | 254.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'PAPAS_B1' on GitHub by visiting:
+remote:      https://github.com/Thea-18/PAPAS_IT120_ACT1/pull/new/PAPAS_B1
+remote:
+To https://github.com/Thea-18/PAPAS_IT120_ACT1.git
+ * [new branch]      PAPAS_B1 -> PAPAS_B1
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (main)
+$ git push origin PAPAS_B2
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.52 KiB | 310.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+remote:
+remote: Create a pull request for 'PAPAS_B2' on GitHub by visiting:
+remote:      https://github.com/Thea-18/PAPAS_IT120_ACT1/pull/new/PAPAS_B2
+remote:
+To https://github.com/Thea-18/PAPAS_IT120_ACT1.git
+ * [new branch]      PAPAS_B2 -> PAPAS_B2
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (main)
+$ git push origin PAPAS_B3
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.72 KiB | 293.00 KiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+remote:
+remote: Create a pull request for 'PAPAS_B3' on GitHub by visiting:
+remote:      https://github.com/Thea-18/PAPAS_IT120_ACT1/pull/new/PAPAS_B3
+remote:
+To https://github.com/Thea-18/PAPAS_IT120_ACT1.git
+ * [new branch]      PAPAS_B3 -> PAPAS_B3
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (main)
+$ git push origin PAPAS_B4
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 2.06 KiB | 421.00 KiB/s, done.
+Total 12 (delta 7), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (7/7), completed with 1 local object.
+remote:
+remote: Create a pull request for 'PAPAS_B4' on GitHub by visiting:
+remote:      https://github.com/Thea-18/PAPAS_IT120_ACT1/pull/new/PAPAS_B4
+remote:
+To https://github.com/Thea-18/PAPAS_IT120_ACT1.git
+ * [new branch]      PAPAS_B4 -> PAPAS_B4
+
 
 
 
