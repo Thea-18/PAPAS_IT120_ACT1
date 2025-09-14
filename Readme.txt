@@ -257,6 +257,20 @@ $ git status
 On branch PAPAS_B4
 nothing to commit, working tree clean
 
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B4)
+$ git add Readme.txt
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B4)
+$ git commit -m "Insert commands"
+[PAPAS_B4 9be7f51] Insert commands
+ 1 file changed, 31 insertions(+)
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B4)
+$ git checkout PAPAS_B4
+M       Readme.txt
+Already on 'PAPAS_B4'
+
+
 
 
 
