@@ -197,5 +197,35 @@ On branch PAPAS_B3
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         modified:   Readme.txt
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B3)
+$ git add Readme.txt
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B3)
+$ git commit -m "Insert commands"
+[PAPAS_B3 dee2389] Insert commands
+ 1 file changed, 201 insertions(+)
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B3)
+$ git checkout PAPAS_B4
+Switched to branch 'PAPAS_B4'
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B4)
+$ git checkout PAPAS_B3 -- Readme.txt
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B4)
+$ git rm Test.py
+rm 'Test.py'
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B4)
+$ git commit -m "Removed Test.py"
+[PAPAS_B4 d195f97] Removed Test.py
+ 2 files changed, 201 insertions(+), 2 deletions(-)
+ delete mode 100644 Test.py
+
+Kea Papas@LAPTOP-H175QIKR MINGW64 ~/PAPAS_IT120_Act1 (PAPAS_B4)
+$ git status
+On branch PAPAS_B4
+nothing to commit, working tree clean
+
 
 
