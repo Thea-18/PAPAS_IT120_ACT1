@@ -5,3 +5,9 @@ Gender: Female
 Age: 20
 Birthdate: November 18, 2004
 Contacts: 09514190774
+Birth of Place: Buhang, Magallanes, Agusan del Norte
+Religion: Roman Catholic
+Father's Name: Manolet B. Nedamo
+Occupation: N/A
+Mother's Name: Evajean P. Hingpit
+Occupation: Company Worker
